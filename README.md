@@ -57,3 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+# Database
+|  |
+| ------- |
+| [1908-recyclable-and-low-fat-products](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1908-recyclable-and-low-fat-products) |
