@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0169-majority-element](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0189-rotate-array) |
+| [0274-h-index](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0274-h-index) |
 | [1044-find-common-characters](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1044-find-common-characters) |
 # Two Pointers
 |  |
@@ -29,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0088-merge-sorted-array](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0169-majority-element) |
+| [0274-h-index](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0274-h-index) |
 # Hash Table
 |  |
 | ------- |
@@ -67,3 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1908-recyclable-and-low-fat-products](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1908-recyclable-and-low-fat-products) |
+# Counting Sort
+|  |
+| ------- |
+| [0274-h-index](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0274-h-index) |
