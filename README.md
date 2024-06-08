@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0189-rotate-array) |
 | [0274-h-index](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0274-h-index) |
+| [0380-insert-delete-getrandom-o1](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [1044-find-common-characters](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1044-find-common-characters) |
 # Two Pointers
 |  |
@@ -35,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0169-majority-element) |
+| [0380-insert-delete-getrandom-o1](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [1044-find-common-characters](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1044-find-common-characters) |
 # String
 |  |
@@ -52,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0189-rotate-array](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0189-rotate-array) |
+| [0380-insert-delete-getrandom-o1](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0380-insert-delete-getrandom-o1) |
 # Dynamic Programming
 |  |
 | ------- |
@@ -73,3 +76,11 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0274-h-index](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0274-h-index) |
+# Design
+|  |
+| ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0380-insert-delete-getrandom-o1) |
+# Randomized
+|  |
+| ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0380-insert-delete-getrandom-o1) |
