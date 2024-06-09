@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0012-integer-to-roman](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0013-roman-to-integer) |
+| [0014-longest-common-prefix](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0014-longest-common-prefix) |
 | [0058-length-of-last-word](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0058-length-of-last-word) |
 | [1044-find-common-characters](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1044-find-common-characters) |
 # Divide and Conquer
@@ -111,3 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0042-trapping-rain-water) |
+# Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0014-longest-common-prefix) |
