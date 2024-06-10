@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0055-jump-game) |
+| [0068-text-justification](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0068-text-justification) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0088-merge-sorted-array) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -125,3 +126,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0068-text-justification](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0068-text-justification) |
+# Simulation
+|  |
+| ------- |
+| [0068-text-justification](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0068-text-justification) |
