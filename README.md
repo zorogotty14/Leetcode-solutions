@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0238-product-of-array-except-self) |
 | [0274-h-index](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0274-h-index) |
+| [0289-game-of-life](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0289-game-of-life) |
 | [0380-insert-delete-getrandom-o1](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [1044-find-common-characters](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1044-find-common-characters) |
 # Two Pointers
@@ -162,6 +163,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0054-spiral-matrix](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0054-spiral-matrix) |
 | [0068-text-justification](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0068-text-justification) |
+| [0289-game-of-life](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0289-game-of-life) |
 # Binary Search
 |  |
 | ------- |
@@ -181,3 +183,4 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0073-set-matrix-zeroes) |
+| [0289-game-of-life](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0289-game-of-life) |
