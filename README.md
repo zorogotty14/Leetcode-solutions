@@ -134,6 +134,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0012-integer-to-roman](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0012-integer-to-roman) |
+| [0014-longest-common-prefix](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0014-longest-common-prefix) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0058-length-of-last-word](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0058-length-of-last-word) |
 | [0068-text-justification](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0068-text-justification) |
