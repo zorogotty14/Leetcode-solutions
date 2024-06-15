@@ -133,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 # String Matching
 |  |
 | ------- |
+| [0012-integer-to-roman](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0012-integer-to-roman) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0068-text-justification](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0068-text-justification) |
 | [0125-valid-palindrome](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0125-valid-palindrome) |
