@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0274-h-index](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0274-h-index) |
 | [0289-game-of-life](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0289-game-of-life) |
 | [0380-insert-delete-getrandom-o1](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0380-insert-delete-getrandom-o1) |
+| [0853-most-profit-assigning-work](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0853-most-profit-assigning-work) |
 | [1044-find-common-characters](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1044-find-common-characters) |
 # Two Pointers
 |  |
@@ -46,12 +47,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0189-rotate-array) |
 | [0392-is-subsequence](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0392-is-subsequence) |
+| [0853-most-profit-assigning-work](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0853-most-profit-assigning-work) |
 # Sorting
 |  |
 | ------- |
 | [0088-merge-sorted-array](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0169-majority-element) |
 | [0274-h-index](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0274-h-index) |
+| [0853-most-profit-assigning-work](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0853-most-profit-assigning-work) |
 # Hash Table
 |  |
 | ------- |
@@ -112,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0134-gas-station](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0135-candy) |
+| [0853-most-profit-assigning-work](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0853-most-profit-assigning-work) |
 # Database
 |  |
 | ------- |
@@ -174,6 +178,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0209-minimum-size-subarray-sum) |
+| [0853-most-profit-assigning-work](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0853-most-profit-assigning-work) |
 # Sliding Window
 |  |
 | ------- |
