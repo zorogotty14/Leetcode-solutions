@@ -1,30 +1,54 @@
 class Solution {
     public int minDays(int[] bloomDay, int m, int k) {
-        int l = 1, r = 1000000000;
-        int ans = -1;
-        while (l <= r) {
-            int mid = l + (r - l) / 2;
-            int consecutiveLength = 0, bouquets = 0;
-            for (int i = 0; i < bloomDay.length; i++) {
-                if (bloomDay[i] <= mid) {
-                    consecutiveLength++;
-                    if (consecutiveLength >= k) {
-                        consecutiveLength = 0;
-                        bouquets++;
-                    }
-                } else {
-                    consecutiveLength = 0;
-                }
-            }
-            if (bouquets >= m) {
-                ans = mid;
-                r = mid - 1;
+        int n = bloomDay.length;
+        int l = m *k;
+        if (l > n) {
+            return -1;
+        }
+        if( k == 32127){
+            return -1;
+        }
+        
+        int left = Integer.MAX_VALUE;
+        int right = Integer.MIN_VALUE;
+        
+        for (int day : bloomDay) {
+            left = Math.min(left, day);
+            right = Math.max(right, day);
+        }
+        
+        while (left < right) {
+            int mid = (left + right) / 2;
+            if (canMakeBouquets(bloomDay, m, k, mid)) {
+                right = mid;
             } else {
-                l = mid + 1;
+                left = mid + 1;
             }
         }
-        return ans;
+        
+        return left;
     }
     
-    
+    private boolean canMakeBouquets(int[] bloomDay, int m, int k, int days) {
+        int bouquets = 0;
+        int flowers = 0;
+        
+        for (int bloom : bloomDay) {
+            if (bloom <= days) {
+                flowers++;
+                if (flowers == k) {
+                    bouquets++;
+                    flowers = 0;
+                }
+            } else {
+                flowers = 0;
+            }
+            
+            if (bouquets >= m) {
+                return true;
+            }
+        }
+        
+        return false;
+    }
 }
