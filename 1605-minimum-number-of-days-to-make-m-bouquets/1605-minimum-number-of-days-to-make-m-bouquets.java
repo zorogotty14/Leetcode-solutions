@@ -1,54 +1,49 @@
 class Solution {
     public int minDays(int[] bloomDay, int m, int k) {
-        int n = bloomDay.length;
-        int l = m *k;
-        if (l > n) {
-            return -1;
-        }
-        if( k == 32127){
+        // If the total required flowers exceed the available flowers, it's impossible to make bouquets
+        if (m * k > bloomDay.length) {
             return -1;
         }
         
-        int left = Integer.MAX_VALUE;
-        int right = Integer.MIN_VALUE;
-        
-        for (int day : bloomDay) {
-            left = Math.min(left, day);
-            right = Math.max(right, day);
-        }
-        
-        while (left < right) {
-            int mid = (left + right) / 2;
+        // Initialize binary search boundaries
+        int left = 1;
+        int right = 1_000_000_000;
+        int result = -1;
+
+        // Perform binary search
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
             if (canMakeBouquets(bloomDay, m, k, mid)) {
-                right = mid;
+                result = mid;
+                right = mid - 1;
             } else {
                 left = mid + 1;
             }
         }
-        
-        return left;
+
+        return result;
     }
-    
-    private boolean canMakeBouquets(int[] bloomDay, int m, int k, int days) {
+
+    // Helper function to determine if we can make the required number of bouquets by a certain day
+    private boolean canMakeBouquets(int[] bloomDay, int m, int k, int day) {
+        int consecutiveFlowers = 0;
         int bouquets = 0;
-        int flowers = 0;
-        
+
         for (int bloom : bloomDay) {
-            if (bloom <= days) {
-                flowers++;
-                if (flowers == k) {
+            if (bloom <= day) {
+                consecutiveFlowers++;
+                if (consecutiveFlowers == k) {
                     bouquets++;
-                    flowers = 0;
+                    consecutiveFlowers = 0;
                 }
             } else {
-                flowers = 0;
+                consecutiveFlowers = 0;
             }
-            
             if (bouquets >= m) {
                 return true;
             }
         }
-        
+
         return false;
     }
 }
