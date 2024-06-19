@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0380-insert-delete-getrandom-o1](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0853-most-profit-assigning-work](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0853-most-profit-assigning-work) |
 | [1044-find-common-characters](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1044-find-common-characters) |
+| [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 # Two Pointers
 |  |
 | ------- |
@@ -193,6 +194,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0209-minimum-size-subarray-sum) |
 | [0853-most-profit-assigning-work](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0853-most-profit-assigning-work) |
+| [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 # Sliding Window
 |  |
 | ------- |
