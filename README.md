@@ -121,6 +121,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0150-evaluate-reverse-polish-notation](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0202-happy-number) |
+| [0224-basic-calculator](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0224-basic-calculator) |
 | [0380-insert-delete-getrandom-o1](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0380-insert-delete-getrandom-o1) |
 # Dynamic Programming
 |  |
@@ -173,6 +174,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0071-simplify-path](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0071-simplify-path) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0155-min-stack) |
+| [0224-basic-calculator](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0224-basic-calculator) |
 # Monotonic Stack
 |  |
 | ------- |
@@ -199,6 +201,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0205-isomorphic-strings) |
+| [0224-basic-calculator](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0224-basic-calculator) |
 | [0242-valid-anagram](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0242-valid-anagram) |
 | [0290-word-pattern](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0290-word-pattern) |
 | [0383-ransom-note](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0383-ransom-note) |
@@ -237,3 +240,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0128-longest-consecutive-sequence) |
+# Recursion
+|  |
+| ------- |
+| [0224-basic-calculator](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0224-basic-calculator) |
