@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0853-most-profit-assigning-work](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0853-most-profit-assigning-work) |
 | [1044-find-common-characters](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1044-find-common-characters) |
+| [1138-grumpy-bookstore-owner](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1138-grumpy-bookstore-owner) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 # Two Pointers
 |  |
@@ -223,6 +224,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0076-minimum-window-substring](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0076-minimum-window-substring) |
 | [0209-minimum-size-subarray-sum](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0209-minimum-size-subarray-sum) |
 | [0219-contains-duplicate-ii](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0219-contains-duplicate-ii) |
+| [1138-grumpy-bookstore-owner](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1138-grumpy-bookstore-owner) |
 # Matrix
 |  |
 | ------- |
