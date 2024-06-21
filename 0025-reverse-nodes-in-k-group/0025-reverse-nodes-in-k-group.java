@@ -17,38 +17,34 @@ class Solution {
         // Dummy node initialization to handle edge cases
         ListNode dummy = new ListNode(0);
         dummy.next = head;
-        ListNode current = head, prevGroupEnd = dummy;
+        ListNode current = dummy, prevGroupEnd = dummy;
 
-        while (current != null) {
+        while (true) {
             // Check if there are at least k nodes left to reverse
-            ListNode groupStart = current;
-            int count = 0;
-            while (count < k && current != null) {
-                current = current.next;
-                count++;
+            ListNode groupStart = current.next;
+            ListNode check = current;
+            for (int i = 0; i < k; i++) {
+                check = check.next;
+                if (check == null) {
+                    return dummy.next;
+                }
             }
-            if (count == k) {
-                // Reverse k nodes
-                ListNode reversedGroup = reverse(groupStart, k);
-                prevGroupEnd.next = reversedGroup;
-                prevGroupEnd = groupStart;
-            } else {
-                // Less than k nodes left, no more reversals needed
-                prevGroupEnd.next = groupStart;
-            }
-        }
 
-        return dummy.next;
+            // Reverse k nodes
+            ListNode prev = null, curr = groupStart, next = null;
+            for (int i = 0; i < k; i++) {
+                next = curr.next;
+                curr.next = prev;
+                prev = curr;
+                curr = next;
+            }
+
+            // Connect the reversed group to the previous part
+            prevGroupEnd.next = prev;
+            groupStart.next = curr;
+            prevGroupEnd = groupStart;
+            current = groupStart;
     }
-    private ListNode reverse(ListNode head, int k) {
-        ListNode prev = null, current = head, next = null;
-        while (k > 0) {
-            next = current.next;
-            current.next = prev;
-            prev = current;
-            current = next;
-            k--;
-        }
-        return prev;
     }
+    
 }
