@@ -17,29 +17,38 @@ class Solution {
         // Dummy node initialization to handle edge cases
         ListNode dummy = new ListNode(0);
         dummy.next = head;
-        ListNode current = dummy, next = dummy, prev = dummy;
-        int count = 0;
+        ListNode current = head, prevGroupEnd = dummy;
 
-        // Count the number of nodes in the list
-        while (current.next != null) {
-            current = current.next;
-            count++;
-        }
-
-        // Reverse in groups of k
-        while (count >= k) {
-            current = prev.next;
-            next = current.next;
-            for (int i = 1; i < k; i++) {
-                current.next = next.next;
-                next.next = prev.next;
-                prev.next = next;
-                next = current.next;
+        while (current != null) {
+            // Check if there are at least k nodes left to reverse
+            ListNode groupStart = current;
+            int count = 0;
+            while (count < k && current != null) {
+                current = current.next;
+                count++;
             }
-            prev = current;
-            count -= k;
+            if (count == k) {
+                // Reverse k nodes
+                ListNode reversedGroup = reverse(groupStart, k);
+                prevGroupEnd.next = reversedGroup;
+                prevGroupEnd = groupStart;
+            } else {
+                // Less than k nodes left, no more reversals needed
+                prevGroupEnd.next = groupStart;
+            }
         }
 
         return dummy.next;
+    }
+    private ListNode reverse(ListNode head, int k) {
+        ListNode prev = null, current = head, next = null;
+        while (k > 0) {
+            next = current.next;
+            current.next = prev;
+            prev = current;
+            current = next;
+            k--;
+        }
+        return prev;
     }
 }
