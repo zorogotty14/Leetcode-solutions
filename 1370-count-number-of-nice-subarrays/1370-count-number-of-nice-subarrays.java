@@ -1,7 +1,7 @@
 class Solution {
     public int numberOfSubarrays(int[] nums, int k) {
         HashMap<Integer, Integer> prefixCount = new HashMap<>();
-        prefixCount.put(0, 1);  // Initialize to handle the case when subarray starts from index 0
+        prefixCount.put(0, 1);  // Initializing with count 1 for the base case
         int count = 0;
         int currentOddCount = 0;
 
@@ -11,11 +11,8 @@ class Solution {
                 currentOddCount++;
             }
 
-            // If currentOddCount - k exists in the prefixCount map, it means there are some subarrays
-            // ending at the current index which have exactly k odd numbers.
-            if (prefixCount.containsKey(currentOddCount - k)) {
-                count += prefixCount.get(currentOddCount - k);
-            }
+            // Check if there exists a prefix with currentOddCount - k
+            count += prefixCount.getOrDefault(currentOddCount - k, 0);
 
             // Update the prefixCount map with the currentOddCount
             prefixCount.put(currentOddCount, prefixCount.getOrDefault(currentOddCount, 0) + 1);
