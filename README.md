@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0853-most-profit-assigning-work](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0853-most-profit-assigning-work) |
 | [1044-find-common-characters](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1044-find-common-characters) |
 | [1138-grumpy-bookstore-owner](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1138-grumpy-bookstore-owner) |
+| [1370-count-number-of-nice-subarrays](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1370-count-number-of-nice-subarrays) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 # Two Pointers
 |  |
@@ -101,6 +102,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0380-insert-delete-getrandom-o1](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0383-ransom-note](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0383-ransom-note) |
 | [1044-find-common-characters](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1044-find-common-characters) |
+| [1370-count-number-of-nice-subarrays](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1370-count-number-of-nice-subarrays) |
 # String
 |  |
 | ------- |
@@ -132,6 +134,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0202-happy-number](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0202-happy-number) |
 | [0224-basic-calculator](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0224-basic-calculator) |
 | [0380-insert-delete-getrandom-o1](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0380-insert-delete-getrandom-o1) |
+| [1370-count-number-of-nice-subarrays](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1370-count-number-of-nice-subarrays) |
 # Dynamic Programming
 |  |
 | ------- |
@@ -238,6 +241,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0209-minimum-size-subarray-sum) |
 | [0219-contains-duplicate-ii](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0219-contains-duplicate-ii) |
 | [1138-grumpy-bookstore-owner](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1138-grumpy-bookstore-owner) |
+| [1370-count-number-of-nice-subarrays](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1370-count-number-of-nice-subarrays) |
 # Matrix
 |  |
 | ------- |
