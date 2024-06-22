@@ -1,23 +1,19 @@
 class Solution {
     public int numberOfSubarrays(int[] nums, int k) {
-        HashMap<Integer, Integer> prefixCount = new HashMap<>();
-        prefixCount.put(0, 1);  // Initializing with count 1 for the base case
-        int count = 0;
-        int currentOddCount = 0;
+        int count = 0, oddCount = 0, result = 0;
+        int[] prefix = new int[nums.length + 1];
+        prefix[0] = 1;
 
         for (int num : nums) {
-            // Increase currentOddCount if the current number is odd
             if (num % 2 == 1) {
-                currentOddCount++;
+                oddCount++;
             }
-
-            // Check if there exists a prefix with currentOddCount - k
-            count += prefixCount.getOrDefault(currentOddCount - k, 0);
-
-            // Update the prefixCount map with the currentOddCount
-            prefixCount.put(currentOddCount, prefixCount.getOrDefault(currentOddCount, 0) + 1);
+            if (oddCount >= k) {
+                result += prefix[oddCount - k];
+            }
+            prefix[oddCount]++;
         }
 
-        return count;
+        return result;
     }
 }
