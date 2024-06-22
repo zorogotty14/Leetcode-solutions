@@ -144,6 +144,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0392-is-subsequence](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0392-is-subsequence) |
+| [1250-longest-common-subsequence](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1250-longest-common-subsequence) |
 # Greedy
 |  |
 | ------- |
@@ -219,6 +220,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0290-word-pattern](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0290-word-pattern) |
 | [0383-ransom-note](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0383-ransom-note) |
 | [0392-is-subsequence](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0392-is-subsequence) |
+| [1250-longest-common-subsequence](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1250-longest-common-subsequence) |
 # Simulation
 |  |
 | ------- |
