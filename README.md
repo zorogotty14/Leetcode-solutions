@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0380-insert-delete-getrandom-o1](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0853-most-profit-assigning-work](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0853-most-profit-assigning-work) |
+| [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
 | [1044-find-common-characters](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1044-find-common-characters) |
 | [1138-grumpy-bookstore-owner](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1138-grumpy-bookstore-owner) |
 | [1370-count-number-of-nice-subarrays](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1370-count-number-of-nice-subarrays) |
@@ -189,6 +190,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0238-product-of-array-except-self) |
+| [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
 # Stack
 |  |
 | ------- |
@@ -253,6 +255,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0076-minimum-window-substring](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0076-minimum-window-substring) |
 | [0209-minimum-size-subarray-sum](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0209-minimum-size-subarray-sum) |
 | [0219-contains-duplicate-ii](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0219-contains-duplicate-ii) |
+| [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
 | [1138-grumpy-bookstore-owner](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1138-grumpy-bookstore-owner) |
 | [1370-count-number-of-nice-subarrays](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1370-count-number-of-nice-subarrays) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
@@ -373,6 +376,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0222-count-complete-tree-nodes](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0222-count-complete-tree-nodes) |
+| [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
 | [1568-pseudo-palindromic-paths-in-a-binary-tree](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1568-pseudo-palindromic-paths-in-a-binary-tree) |
 # Binary Search Tree
 |  |
@@ -386,6 +390,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 # Queue
 |  |
 | ------- |
+| [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 # Heap (Priority Queue)
 |  |
