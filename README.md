@@ -129,6 +129,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0169-majority-element](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0169-majority-element) |
+| [1285-balance-a-binary-search-tree](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1285-balance-a-binary-search-tree) |
 # Counting
 |  |
 | ------- |
@@ -168,6 +169,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0135-candy](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0135-candy) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0853-most-profit-assigning-work](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0853-most-profit-assigning-work) |
+| [1285-balance-a-binary-search-tree](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1285-balance-a-binary-search-tree) |
 # Database
 |  |
 | ------- |
@@ -330,6 +332,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0530-minimum-absolute-difference-in-bst](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0637-average-of-levels-in-binary-tree) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
+| [1285-balance-a-binary-search-tree](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1285-balance-a-binary-search-tree) |
 | [1568-pseudo-palindromic-paths-in-a-binary-tree](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1568-pseudo-palindromic-paths-in-a-binary-tree) |
 # Depth-First Search
 |  |
@@ -353,6 +356,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0530-minimum-absolute-difference-in-bst](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0637-average-of-levels-in-binary-tree) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
+| [1285-balance-a-binary-search-tree](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1285-balance-a-binary-search-tree) |
 | [1568-pseudo-palindromic-paths-in-a-binary-tree](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1568-pseudo-palindromic-paths-in-a-binary-tree) |
 # Breadth-First Search
 |  |
@@ -397,6 +401,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0530-minimum-absolute-difference-in-bst](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0637-average-of-levels-in-binary-tree) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
+| [1285-balance-a-binary-search-tree](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1285-balance-a-binary-search-tree) |
 | [1568-pseudo-palindromic-paths-in-a-binary-tree](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1568-pseudo-palindromic-paths-in-a-binary-tree) |
 # Bit Manipulation
 |  |
@@ -413,6 +418,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0230-kth-smallest-element-in-a-bst](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
+| [1285-balance-a-binary-search-tree](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1285-balance-a-binary-search-tree) |
 # Iterator
 |  |
 | ------- |
