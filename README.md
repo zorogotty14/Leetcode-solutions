@@ -86,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0274-h-index](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0274-h-index) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0853-most-profit-assigning-work](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0853-most-profit-assigning-work) |
+| [2379-maximum-total-importance-of-roads](https://github.com/zorogotty14/Leetcode-solutions/tree/master/2379-maximum-total-importance-of-roads) |
 # Hash Table
 |  |
 | ------- |
@@ -177,6 +178,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0853-most-profit-assigning-work](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0853-most-profit-assigning-work) |
 | [1285-balance-a-binary-search-tree](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1285-balance-a-binary-search-tree) |
+| [2379-maximum-total-importance-of-roads](https://github.com/zorogotty14/Leetcode-solutions/tree/master/2379-maximum-total-importance-of-roads) |
 # Database
 |  |
 | ------- |
@@ -464,6 +466,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
+| [2379-maximum-total-importance-of-roads](https://github.com/zorogotty14/Leetcode-solutions/tree/master/2379-maximum-total-importance-of-roads) |
 # Ordered Set
 |  |
 | ------- |
@@ -480,6 +483,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0210-course-schedule-ii) |
 | [0399-evaluate-division](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0399-evaluate-division) |
 | [1916-find-center-of-star-graph](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1916-find-center-of-star-graph) |
+| [2379-maximum-total-importance-of-roads](https://github.com/zorogotty14/Leetcode-solutions/tree/master/2379-maximum-total-importance-of-roads) |
 # Shortest Path
 |  |
 | ------- |
