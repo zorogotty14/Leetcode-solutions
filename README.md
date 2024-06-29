@@ -525,4 +525,20 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
+## Array
+|  |
+| ------- |
+| [0079-word-search](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0079-word-search) |
+## String
+|  |
+| ------- |
+| [0079-word-search](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0079-word-search) |
+## Backtracking
+|  |
+| ------- |
+| [0079-word-search](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0079-word-search) |
+## Matrix
+|  |
+| ------- |
+| [0079-word-search](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0079-word-search) |
 <!---LeetCode Topics End-->
