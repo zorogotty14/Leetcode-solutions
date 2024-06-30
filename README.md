@@ -534,6 +534,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0079-word-search) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0162-find-peak-element](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0162-find-peak-element) |
 | [0772-construct-quad-tree](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0772-construct-quad-tree) |
 | [0954-maximum-sum-circular-subarray](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0954-maximum-sum-circular-subarray) |
 ## String
@@ -570,6 +571,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0035-search-insert-position](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0035-search-insert-position) |
 | [0074-search-a-2d-matrix](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0074-search-a-2d-matrix) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0162-find-peak-element](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0162-find-peak-element) |
 ## Binary Tree
 |  |
 | ------- |
