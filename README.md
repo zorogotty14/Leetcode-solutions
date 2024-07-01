@@ -537,6 +537,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0162-find-peak-element](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0162-find-peak-element) |
 | [0772-construct-quad-tree](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0772-construct-quad-tree) |
 | [0954-maximum-sum-circular-subarray](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0954-maximum-sum-circular-subarray) |
+| [1293-three-consecutive-odds](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1293-three-consecutive-odds) |
 ## String
 |  |
 | ------- |
