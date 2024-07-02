@@ -540,6 +540,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0162-find-peak-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0215-kth-largest-element-in-an-array) |
+| [0350-intersection-of-two-arrays-ii](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0772-construct-quad-tree](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0772-construct-quad-tree) |
 | [0954-maximum-sum-circular-subarray](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0954-maximum-sum-circular-subarray) |
 | [1293-three-consecutive-odds](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1293-three-consecutive-odds) |
@@ -584,6 +585,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0162-find-peak-element) |
+| [0350-intersection-of-two-arrays-ii](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0350-intersection-of-two-arrays-ii) |
 ## Binary Tree
 |  |
 | ------- |
@@ -597,11 +599,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0148-sort-list](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0148-sort-list) |
+| [0350-intersection-of-two-arrays-ii](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0350-intersection-of-two-arrays-ii) |
 ## Sorting
 |  |
 | ------- |
 | [0148-sort-list](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0148-sort-list) |
 | [0215-kth-largest-element-in-an-array](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0215-kth-largest-element-in-an-array) |
+| [0350-intersection-of-two-arrays-ii](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0350-intersection-of-two-arrays-ii) |
 ## Merge Sort
 |  |
 | ------- |
@@ -633,4 +637,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0215-kth-largest-element-in-an-array) |
+## Hash Table
+|  |
+| ------- |
+| [0350-intersection-of-two-arrays-ii](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0350-intersection-of-two-arrays-ii) |
 <!---LeetCode Topics End-->
