@@ -541,6 +541,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0162-find-peak-element](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0162-find-peak-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0502-ipo](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0502-ipo) |
 | [0772-construct-quad-tree](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0772-construct-quad-tree) |
 | [0954-maximum-sum-circular-subarray](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0954-maximum-sum-circular-subarray) |
 | [1293-three-consecutive-odds](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1293-three-consecutive-odds) |
@@ -606,6 +607,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0148-sort-list](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0148-sort-list) |
 | [0215-kth-largest-element-in-an-array](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0502-ipo](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0502-ipo) |
 ## Merge Sort
 |  |
 | ------- |
@@ -616,6 +618,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0023-merge-k-sorted-lists) |
 | [0215-kth-largest-element-in-an-array](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0215-kth-largest-element-in-an-array) |
+| [0502-ipo](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0502-ipo) |
 ## Union Find
 |  |
 | ------- |
@@ -641,4 +644,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0350-intersection-of-two-arrays-ii](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0350-intersection-of-two-arrays-ii) |
+## Greedy
+|  |
+| ------- |
+| [0502-ipo](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0502-ipo) |
 <!---LeetCode Topics End-->
