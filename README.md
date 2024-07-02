@@ -601,12 +601,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0148-sort-list](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0148-sort-list) |
+| [0295-find-median-from-data-stream](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0295-find-median-from-data-stream) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0350-intersection-of-two-arrays-ii) |
 ## Sorting
 |  |
 | ------- |
 | [0148-sort-list](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0148-sort-list) |
 | [0215-kth-largest-element-in-an-array](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0215-kth-largest-element-in-an-array) |
+| [0295-find-median-from-data-stream](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0295-find-median-from-data-stream) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0502-ipo](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0502-ipo) |
 ## Merge Sort
@@ -619,6 +621,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0023-merge-k-sorted-lists) |
 | [0215-kth-largest-element-in-an-array](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0215-kth-largest-element-in-an-array) |
+| [0295-find-median-from-data-stream](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0295-find-median-from-data-stream) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0502-ipo](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0502-ipo) |
 ## Union Find
@@ -650,4 +653,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0502-ipo](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0502-ipo) |
+## Design
+|  |
+| ------- |
+| [0295-find-median-from-data-stream](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0295-find-median-from-data-stream) |
+## Data Stream
+|  |
+| ------- |
+| [0295-find-median-from-data-stream](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0295-find-median-from-data-stream) |
 <!---LeetCode Topics End-->
