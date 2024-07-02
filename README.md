@@ -549,6 +549,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0067-add-binary) |
 | [0079-word-search](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0079-word-search) |
 ## Backtracking
 |  |
@@ -661,4 +662,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0295-find-median-from-data-stream) |
+## Math
+|  |
+| ------- |
+| [0067-add-binary](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0067-add-binary) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0067-add-binary](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0067-add-binary) |
+## Simulation
+|  |
+| ------- |
+| [0067-add-binary](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0067-add-binary) |
 <!---LeetCode Topics End-->
