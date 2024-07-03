@@ -546,6 +546,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0772-construct-quad-tree](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0772-construct-quad-tree) |
 | [0954-maximum-sum-circular-subarray](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0954-maximum-sum-circular-subarray) |
 | [1293-three-consecutive-odds](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1293-three-consecutive-odds) |
+| [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 ## String
 |  |
 | ------- |
@@ -613,6 +614,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0295-find-median-from-data-stream](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0295-find-median-from-data-stream) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0502-ipo](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0502-ipo) |
+| [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 ## Merge Sort
 |  |
 | ------- |
@@ -655,6 +657,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0502-ipo](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0502-ipo) |
+| [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 ## Design
 |  |
 | ------- |
