@@ -603,6 +603,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0023-merge-k-sorted-lists) |
 | [0148-sort-list](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0148-sort-list) |
+| [2299-merge-nodes-in-between-zeros](https://github.com/zorogotty14/Leetcode-solutions/tree/master/2299-merge-nodes-in-between-zeros) |
 ## Two Pointers
 |  |
 | ------- |
@@ -687,4 +688,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0067-add-binary](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0067-add-binary) |
+| [2299-merge-nodes-in-between-zeros](https://github.com/zorogotty14/Leetcode-solutions/tree/master/2299-merge-nodes-in-between-zeros) |
 <!---LeetCode Topics End-->
