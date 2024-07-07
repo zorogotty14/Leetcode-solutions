@@ -710,6 +710,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0070-climbing-stairs) |
 | [0149-max-points-on-a-line](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0149-max-points-on-a-line) |
 | [0172-factorial-trailing-zeroes](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0172-factorial-trailing-zeroes) |
+| [1642-water-bottles](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1642-water-bottles) |
 | [2645-pass-the-pillow](https://github.com/zorogotty14/Leetcode-solutions/tree/master/2645-pass-the-pillow) |
 ## Bit Manipulation
 |  |
@@ -724,6 +725,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0067-add-binary](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0067-add-binary) |
+| [1642-water-bottles](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1642-water-bottles) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/zorogotty14/Leetcode-solutions/tree/master/2299-merge-nodes-in-between-zeros) |
 | [2645-pass-the-pillow](https://github.com/zorogotty14/Leetcode-solutions/tree/master/2645-pass-the-pillow) |
 ## Recursion
