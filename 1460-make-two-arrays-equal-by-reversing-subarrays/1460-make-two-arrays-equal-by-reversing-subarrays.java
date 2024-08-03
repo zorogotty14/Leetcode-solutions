@@ -1,20 +1,9 @@
 class Solution {
     public boolean canBeEqual(int[] target, int[] arr) {
-        if (target.length != arr.length) {
-            return false;
-        }
+        Arrays.sort(target);
+        Arrays.sort(arr);
         
-        Map<Integer, Integer> targetCount = new HashMap<>();
-        Map<Integer, Integer> arrCount = new HashMap<>();
-        
-        for (int num : target) {
-            targetCount.put(num, targetCount.getOrDefault(num, 0) + 1);
-        }
-        
-        for (int num : arr) {
-            arrCount.put(num, arrCount.getOrDefault(num, 0) + 1);
-        }
-        
-        return targetCount.equals(arrCount);
+        // Compare the sorted arrays
+        return Arrays.equals(target, arr);
     }
 }
