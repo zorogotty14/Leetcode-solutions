@@ -562,6 +562,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0954-maximum-sum-circular-subarray](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0954-maximum-sum-circular-subarray) |
 | [1293-three-consecutive-odds](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1293-three-consecutive-odds) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
+| [2163-kth-distinct-string-in-an-array](https://github.com/zorogotty14/Leetcode-solutions/tree/master/2163-kth-distinct-string-in-an-array) |
 ## String
 |  |
 | ------- |
@@ -571,6 +572,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0079-word-search) |
 | [0097-interleaving-string](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0097-interleaving-string) |
 | [0139-word-break](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0139-word-break) |
+| [2163-kth-distinct-string-in-an-array](https://github.com/zorogotty14/Leetcode-solutions/tree/master/2163-kth-distinct-string-in-an-array) |
 ## Backtracking
 |  |
 | ------- |
@@ -697,6 +699,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0139-word-break](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0139-word-break) |
 | [0149-max-points-on-a-line](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0149-max-points-on-a-line) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/zorogotty14/Leetcode-solutions/tree/master/0350-intersection-of-two-arrays-ii) |
+| [2163-kth-distinct-string-in-an-array](https://github.com/zorogotty14/Leetcode-solutions/tree/master/2163-kth-distinct-string-in-an-array) |
 ## Greedy
 |  |
 | ------- |
@@ -764,4 +767,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1258-article-views-i](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1258-article-views-i) |
 | [1827-invalid-tweets](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1827-invalid-tweets) |
 | [1908-recyclable-and-low-fat-products](https://github.com/zorogotty14/Leetcode-solutions/tree/master/1908-recyclable-and-low-fat-products) |
+## Counting
+|  |
+| ------- |
+| [2163-kth-distinct-string-in-an-array](https://github.com/zorogotty14/Leetcode-solutions/tree/master/2163-kth-distinct-string-in-an-array) |
 <!---LeetCode Topics End-->
