@@ -1,31 +1,31 @@
-import java.util.HashMap;
-import java.util.Map;
-
 class Solution {
     public int lenLongestFibSubseq(int[] arr) {
         int n = arr.length;
-        Map<Integer, Integer> indexMap = new HashMap<>();
-        for (int i = 0; i < n; i++) {
-            indexMap.put(arr[i], i);
-        }
+        int result = 0;
+        int[][] dp = new int[n][n];
 
-        Map<String, Integer> dp = new HashMap<>();
-        int maxLength = 0;
+        for (int i = 2; i < n; i++) {
+            int l = 0, r = i - 1;
 
-        for (int k = 0; k < n; k++) {
-            for (int j = 0; j < k; j++) {
-                int iValue = arr[k] - arr[j];
-                if (iValue < arr[j] && indexMap.containsKey(iValue)) {
-                    int i = indexMap.get(iValue);
-                    String key = i + "," + j;
-                    dp.put(j + "," + k, dp.getOrDefault(key, 2) + 1);
-                    maxLength = Math.max(maxLength, dp.get(j + "," + k));
+            while (l < r) {
+                int sum = arr[l] + arr[r];
+                if (sum > arr[i]) {
+                    r--;
+                } else if (sum < arr[i]) {
+                    l++;
                 } else {
-                    dp.put(j + "," + k, 2);
+                    dp[r][i] = dp[l][r] + 1;
+                    result = Math.max(result, dp[r][i]);
+                    l++;
+                    r--;
                 }
             }
         }
 
-        return maxLength >= 3 ? maxLength : 0;
+        if (result != 0) {
+            return result + 2;
+        }
+
+        return 0;
     }
 }
