@@ -1,39 +1,39 @@
 class Solution {
     public int maximumGain(String s, int x, int y) {
+        int score = 0;
+        char[] chars = s.toCharArray();
+        int len = chars.length;
+        char ch1 = 'a', ch2 = 'b';
+        int cnt1 = 0, cnt2 = 0;
+
         if (x < y) {
-            // Swap x and y and replace "ab" with "ba" and vice versa in the problem to always prioritize the higher score removal
-            return calculateScore(s, y, x, 'b', 'a');
-        } else {
-            return calculateScore(s, x, y, 'a', 'b');
+            int temp = x;
+            x = y;
+            y = temp;
+            ch1 = 'b';
+            ch2 = 'a';
         }
-    }
 
-    private int calculateScore(String s, int firstScore, int secondScore, char firstChar, char secondChar) {
-        int totalScore = 0;
-        StringBuilder stack = new StringBuilder();
-
-        // Step 1: Remove the highest score substring
-        for (char c : s.toCharArray()) {
-            if (stack.length() > 0 && c == secondChar && stack.charAt(stack.length() - 1) == firstChar) {
-                stack.deleteCharAt(stack.length() - 1);
-                totalScore += firstScore;
+        for (int i = 0; i < len; i++) {
+            if (chars[i] == ch1) {
+                cnt1++;
+            } else if (chars[i] == ch2) {
+                if (cnt1 > 0) {
+                    cnt1--;
+                    score += x;
+                } else {
+                    cnt2++;
+                }
             } else {
-                stack.append(c);
+                score += Math.min(cnt1, cnt2) * y;
+                cnt1 = 0;
+                cnt2 = 0;
             }
         }
 
-        // Step 2: Remove the second highest score substring
-        String remainingString = stack.toString();
-        stack.setLength(0);
-        for (char c : remainingString.toCharArray()) {
-            if (stack.length() > 0 && c == firstChar && stack.charAt(stack.length() - 1) == secondChar) {
-                stack.deleteCharAt(stack.length() - 1);
-                totalScore += secondScore;
-            } else {
-                stack.append(c);
-            }
-        }
+        if (cnt1 != 0)
+            score += Math.min(cnt1, cnt2) * y;
 
-        return totalScore;
+        return score;
     }
 }
