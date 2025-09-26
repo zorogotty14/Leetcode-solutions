@@ -1,25 +1,20 @@
-import java.util.Arrays;
-
 class Solution {
     public int triangleNumber(int[] nums) {
-        Arrays.sort(nums);  // Sort the array
+        Arrays.sort(nums);
+        int n = nums.length;
         int count = 0;
-        
-        // Iterate over the array, treating nums[k] as the largest side
-        for (int k = nums.length - 1; k >= 2; k--) {
-            int i = 0, j = k - 1;  // Two pointers
-            
-            while (i < j) {
-                if (nums[i] + nums[j] > nums[k]) {
-                    // If nums[i] + nums[j] > nums[k], all elements between i and j form valid pairs
-                    count += j - i;
-                    j--;  // Move the right pointer leftward
+
+        for (int i = n - 1; i >= 2; i--) {
+            int left = 0, right = i - 1;
+            while (left < right) {
+                if (nums[left] + nums[right] > nums[i]) {
+                    count += right - left;
+                    right--;
                 } else {
-                    i++;  // Move the left pointer rightward
+                    left++;
                 }
             }
         }
-        
         return count;
     }
 }
