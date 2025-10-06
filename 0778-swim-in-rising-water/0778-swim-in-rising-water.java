@@ -1,36 +1,39 @@
-import java.util.PriorityQueue;
-
 class Solution {
     public int swimInWater(int[][] grid) {
-        int n = grid.length;
-        boolean[][] visited = new boolean[n][n];
-        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> a[2] - b[2]); // Min-heap based on elevation/time
-        pq.offer(new int[]{0, 0, grid[0][0]}); // Starting at (0, 0) with initial elevation time
-        int[][] directions = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
-
-        while (!pq.isEmpty()) {
-            int[] current = pq.poll();
-            int x = current[0], y = current[1], time = current[2];
-
-            // If we have reached the bottom-right corner
-            if (x == n - 1 && y == n - 1) {
-                return time;
-            }
-
-            // Mark the current cell as visited
-            visited[x][y] = true;
-
-            // Explore the 4-directionally adjacent cells
-            for (int[] dir : directions) {
-                int newX = x + dir[0];
-                int newY = y + dir[1];
-                if (newX >= 0 && newY >= 0 && newX < n && newY < n && !visited[newX][newY]) {
-                    // The time to move to the next cell is the max of the current time or the elevation of the next cell
-                    pq.offer(new int[]{newX, newY, Math.max(time, grid[newX][newY])});
+        int m = grid.length, n = grid[0].length;
+        int[][] directions = {{0,1}, {1,0}, {0,-1}, {-1,0}};
+        
+        int lo = grid[0][0], hi = 0;
+        for (int[] row : grid)
+            for (int val : row)
+                hi = Math.max(hi, val);
+        
+        while (lo < hi) {
+            int mid = lo + (hi - lo) / 2;
+            if (possible(grid, mid, m, n, directions)) hi = mid;
+            else lo = mid + 1;
+        }
+        return lo;
+    }
+    
+    private boolean possible(int[][] grid, int mid, int m, int n, int[][] directions) {
+        if (grid[0][0] > mid) return false;
+        boolean[][] seen = new boolean[m][n];
+        return dfs(grid, 0, 0, mid, seen, m, n, directions);
+    }
+    
+    private boolean dfs(int[][] grid, int r, int c, int mid, boolean[][] seen, int m, int n, int[][] directions) {
+        if (r == m-1 && c == n-1) return true;
+        seen[r][c] = true;
+        
+        for (int[] dir : directions) {
+            int nr = r + dir[0], nc = c + dir[1];
+            if (nr >= 0 && nr < m && nc >= 0 && nc < n && !seen[nr][nc]) {
+                if (grid[nr][nc] <= mid) {
+                    if (dfs(grid, nr, nc, mid, seen, m, n, directions)) return true;
                 }
             }
         }
-
-        return -1; // Should never reach here as per the problem constraints
+        return false;
     }
 }
