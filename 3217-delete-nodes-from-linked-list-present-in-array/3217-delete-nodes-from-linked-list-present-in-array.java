@@ -1,35 +1,25 @@
-import java.util.HashSet;
-import java.util.Set;
-
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode() {}
+ *     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
+ */
 class Solution {
     public ListNode modifiedList(int[] nums, ListNode head) {
-        // Convert the nums array to a set for fast lookup
-        Set<Integer> toRemove = new HashSet<>();
-        for (int num : nums) {
-            toRemove.add(num);
-        }
-
-        // Create a dummy node to handle edge cases where the head might be removed
-        ListNode dummy = new ListNode(0);
-        dummy.next = head;
-
-        // Use two pointers: prev (starts from dummy) and curr (starts from head)
-        ListNode prev = dummy;
+        java.util.HashSet<Integer> mpp = new java.util.HashSet<>();
+        for (int x : nums) mpp.add(x);
+        while (head != null && mpp.contains(head.val)) head = head.next;
         ListNode curr = head;
-
-        while (curr != null) {
-            if (toRemove.contains(curr.val)) {
-                // Skip the current node by linking prev to curr.next
-                prev.next = curr.next;
-            } else {
-                // Move prev forward only if we did not skip the current node
-                prev = curr;
+        while (curr != null && curr.next != null) {
+            while (curr.next != null && mpp.contains(curr.next.val)) {
+                curr.next = curr.next.next;
             }
-            // Move curr to the next node
             curr = curr.next;
         }
-
-        // Return the updated linked list starting from dummy.next
-        return dummy.next;
+        return head;
     }
 }
