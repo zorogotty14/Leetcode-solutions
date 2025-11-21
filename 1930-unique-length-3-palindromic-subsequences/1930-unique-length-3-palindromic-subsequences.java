@@ -1,32 +1,27 @@
-import java.util.HashSet;
-
 class Solution {
     public int countPalindromicSubsequence(String s) {
-        // Set to store unique palindromic subsequences
-        HashSet<String> uniquePalindromes = new HashSet<>();
-        
-        // Iterate through all lowercase English letters
-        for (char ch = 'a'; ch <= 'z'; ch++) {
-            // Find the first and last occurrence of the current character
-            int first = s.indexOf(ch);
-            int last = s.lastIndexOf(ch);
-            
-            // If there's enough space between first and last occurrence
-            if (first != -1 && last != -1 && first < last) {
-                // Use a set to collect unique characters between first and last
-                HashSet<Character> seen = new HashSet<>();
-                for (int i = first + 1; i < last; i++) {
-                    seen.add(s.charAt(i));
+        int n = s.length();
+        int[] first = new int[26];
+        int[] last = new int[26];
+        for (int i = 0; i < 26; i++) {
+            first[i] = -1;
+            last[i] = -1;
+        }
+        for (int i = 0; i < n; i++) {
+            int c = s.charAt(i) - 'a';
+            if (first[c] == -1) first[c] = i;
+            last[c] = i;
+        }
+        int ans = 0;
+        for (int c = 0; c < 26; c++) {
+            if (first[c] != -1 && last[c] - first[c] > 1) {
+                int mask = 0;
+                for (int i = first[c] + 1; i < last[c]; i++) {
+                    mask |= 1 << (s.charAt(i) - 'a');
                 }
-                
-                // Add all palindromic subsequences of form "aXa" to the result set
-                for (char mid : seen) {
-                    uniquePalindromes.add("" + ch + mid + ch);
-                }
+                ans += Integer.bitCount(mask);
             }
         }
-        
-        // Return the number of unique palindromic subsequences
-        return uniquePalindromes.size();
+        return ans;
     }
 }
